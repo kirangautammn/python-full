@@ -1,0 +1,30 @@
+html{
+    width:50vw;
+}
+h1{
+    color: tomato;
+}
+.me{
+    color: rgb(255, 149, 0);
+    font-size: 27px;
+}
+ol{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-size: 27px;
+}
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.edu{
+    width: 70vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow:scroll;
+    border: 2px solid black;
+    height: 100px;
+}

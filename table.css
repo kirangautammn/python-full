@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    text-shadow: 10px 10px 15px;
+}
+h1::first-letter{
+    color: red;
+}
+h1 span{
+    color: red;
+}
+
+.gray{
+    background-color: gray;
+}
+.lo{
+    background-color: rgb(235, 242, 240);
+}
+table{
+    text-align: center;
+}

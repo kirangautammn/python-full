@@ -1,14 +1,16 @@
-html{
-    width:50vw;
-}
+
 h1{
     color: tomato;
+    text-align: center;
+    text-shadow: 10px 10px 15px;
+    border: 1px solid gray;
 }
 .me{
     color: rgb(255, 149, 0);
     font-size: 27px;
 }
-ol{
+ol:hover{
+    color: brown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h3{

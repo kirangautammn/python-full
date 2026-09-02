@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                      url("gk.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.login-page {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 30px;
+    margin: 20vh 40vw;
+    border-radius: 30px;
+    background-color: rgba(95, 78, 78, 0.8);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.login-page:hover {
+    box-shadow: 5px 5px 10px black;
+}
+
+.in {
+    margin-top: 20px;
+    padding: 20px;
+    width: 20vw;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+div h1 {
+    text-align: center;
+     
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.new {
+    margin-top: 20px;
+}
+
+.first {
+    margin-left: 5px;
+}
+
+a {
+    margin: 40px;
+    color: red;
+}
+
+form div {
+    margin-top: 20px;
+    color: white;
+}

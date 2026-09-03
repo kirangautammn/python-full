@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    padding: 30px;
+    height: 100vh;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("shoe.png");
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    color: beige;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+}
+ul li {
+    padding: 10px;
+    list-style-type: none;
+    color: rgb(219, 139, 20);
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: blanchedalmond;
+
+}
+.bd{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: rgb(42, 151, 165);
+}
+.hl{
+    width: 40vm;
+    padding: 50px;
+}
+.hr{
+    padding: 55px 60px;
+    
+}
+.hl h2{
+    font-size: 60px;
+    color: aqua;
+}
+.hl p{
+    font-size: 25px;
+    margin: 20px 0px;
+    color: blanchedalmond;
+}
+.hr img{
+    height: 50vh;
+    width: 35vw;
+}
+.bd button{
+    width: 200px;
+    padding: 20px;
+    font-weight: 750;
+    border: none;
+    border-radius: 30px;
+    /* background-color:rgba(151, 92, 130, 0.705); */
+    margin-bottom: 30px;
+}
+span{
+    color: azure;
+}
+.bd ol{
+    border-top: 2px solid rgb(176, 80, 80);
+    padding: 15px;
+    font-weight: 600;
+}
+header h1{
+    margin-left: 80px;
+    
+}
+.shop{
+    background-color: orange;
+}
